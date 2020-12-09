@@ -8,21 +8,21 @@
     background: #BDFFF3;
     border-radius:10px;
     font-size:0.85rem;
-    font-weight:600;">Challenge Page</a>
+    font-weight:600;">Challenge Page</a> |
 <a href="https://" target="_blank" rel="noopener"
     style="padding:0.35rem 0.7rem;
     color: black;
     background: #F1DEDE;
     border-radius:10px;
     font-size:0.85rem;
-    font-weight:600;">Official API Docs</a>
+    font-weight:600;">Official API Docs</a> |
 <a href="https://" target="_blank" rel="noopener"
     style="padding:0.35rem 0.7rem;
     color: black;
     background: #FE938C;
     border-radius:10px;
     font-size:0.85rem;
-    font-weight:600;">YouTube Video</a>
+    font-weight:600;">YouTube Video</a> 
 </div>
 
 ---
@@ -36,7 +36,7 @@
 <p>Feel free to try out first yourself or jump on the YouTube video from the start, find what works best fo you and enjoy! 🐣
 </p> 
 
-#### Tech stack
+### Tech stack
 ```
 Core:
 - HTML
@@ -47,7 +47,7 @@ Communication tool:
 - Fetch
 ```
 
-#### Prerequisites
+### Prerequisites
 ```
 Knowledge level: 
 basic understanding of HTML, CSS and some JavaScript could help
