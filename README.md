@@ -6,10 +6,10 @@
 
 
 ## Preview
-| [Live](https://) |
+| [Live](https://https://danascript.github.io/the-ultimate-api-challenge-yes-no/) |
 
 
-<img src="/preview.png" height="800" />
+<img src="/preview.gif" height="500" />
 
 
 ## General Info
@@ -18,7 +18,7 @@
 ```
 - HTML
 - CSS
-- VanillaJS
+- JavaScript ES6
 API
 - Fetch
 ```
