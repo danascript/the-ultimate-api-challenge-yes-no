@@ -1,6 +1,18 @@
 // API
 const API_ENDPOINT = 'https://yesno.wtf/api';
 
+function fetchAnswer (){
+    fetch(API_ENDPOINT)
+    .then (res => {
+        return res.json()
+    })
+    .then (res => {
+        console.log(res)
+    })
+    .catch(err => {
+        console.log(err)
+    })
+}
 /**
  * STEPS:
  *
