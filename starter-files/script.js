@@ -1,5 +1,11 @@
 // API
 const API_ENDPOINT = 'https://yesno.wtf/api';
+const button = document.getElementById("button")
+
+function renderAnswer(data){
+const answer = data.answer
+document.getElementById("answer").innerText = answer
+}
 
 function fetchAnswer (){
     fetch(API_ENDPOINT)
@@ -8,11 +14,14 @@ function fetchAnswer (){
     })
     .then (res => {
         console.log(res)
+        renderAnswer(res)
     })
     .catch(err => {
         console.log(err)
     })
 }
+
+button.addEventListener('click',fetchAnswer)
 /**
  * STEPS:
  *
